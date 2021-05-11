@@ -1,0 +1,77 @@
+{
+  "entries": [
+    {
+      "1": {
+        "category": "Airport",
+        "lexicalisations": [
+          {
+            "comment": "good",
+            "lex": "The leader of Aarhus is Jacob Bundsgaard.",
+            "xml_id": "Id1"
+          }
+        ],
+        "modifiedtripleset": [
+          {
+            "object": "Jacob_Bundsgaard",
+            "property": "leaderName",
+            "subject": "Aarhus"
+          }
+        ],
+        "originaltriplesets": {
+          "originaltripleset": [
+            [
+              {
+                "object": "Jacob_Bundsgaard",
+                "property": "leaderName",
+                "subject": "Aarhus"
+              }
+            ]
+          ]
+        },
+        "shape": "(X (X))",
+        "shape_type": "NA",
+        "size": "1",
+        "xml_id": "Id1"
+      }
+    },
+    {
+      "2": {
+        "category": "Airport",
+        "lexicalisations": [
+          {
+            "comment": "good",
+            "lex": "Aarhus Airport's runway length is 2702.0.",
+            "xml_id": "Id1"
+          },
+          {
+            "comment": "good",
+            "lex": "The Aarhus Airport has a runway length of 2702.0.",
+            "xml_id": "Id2"
+          }
+        ],
+        "modifiedtripleset": [
+          {
+            "object": "2702.0",
+            "property": "runwayLength",
+            "subject": "Aarhus_Airport"
+          }
+        ],
+        "originaltriplesets": {
+          "originaltripleset": [
+            [
+              {
+                "object": "\"2702.0\"^^xsd:double",
+                "property": "runwayLength",
+                "subject": "Aarhus_Airport"
+              }
+            ]
+          ]
+        },
+        "shape": "(X (X))",
+        "shape_type": "NA",
+        "size": "1",
+        "xml_id": "Id2"
+      }
+    }
+  ]
+}
